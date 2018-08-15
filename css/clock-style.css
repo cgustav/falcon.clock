@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -6,32 +6,33 @@
     box-sizing: border-box;
 }
 
-body{
-    background: url(img-bg-on.jpg) rgba(18, 48, 9, 0.5);
+body {
+    background: url(/images/img-bg-on.jpg) rgba(18, 48, 9, 0.5);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-repeat:repeat-y;
+    background-attachment: fixed;
     color: #ffffff;
     font-size: 16px;
 }
 
-.wrap{
+.wrap {
     width: 90%;
     max-width: 1000px;
     /*to center te clock on screen
     margin: auto;*/
 }
 
-.widget{
+.widget {
     width: 40%;
     margin: 2em;
 }
 
-.widget p{
+.widget p {
     display: inline-block;
     line-height: 1em;
 }
 
-.date{
+.date {
     font-family: Oswald, Arial;
     text-align: center;
     font-size: 1.5em;
@@ -43,14 +44,15 @@ body{
     width: 100%;
 }
 
-.clock{
+.clock {
     font-family: Oswald, Arial;
     width: 100%;
     padding: 20px;
     font-size: 4em;
     text-align: center;
-    background: rgba(0, 0, 0, .5);    
+    background: rgba(0, 0, 0, .5);
 }
+
 .clock .seconds-box {
     display: inline-block;
 }
