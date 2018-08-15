@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Real time clock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="clock-style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="wrap">
+        <!--Using this dive to center the whole application-->
+        <div class="widget">
+            <!--Means the clock widget-->
+            <div class="date">
+                <p class="weekDay" id="weekDay"></p>
+                <p>:</p>
+                <p class="month" id="month"></p>
+                <p class="day" id="day"></p>
+                <p>,</p>
+                <p class="year" id="year"></p>
+            </div>
+            <!--Clock structure-->
+            <div class="clock">
+                <p class="hours" id="hours"></p>
+                <p>:</p>
+                <p class="minutes" id="minutes"></p>
+                <p>:</p>
+                <div class="seconds-box">
+                    <p class="amPm" id="amPm"></p>
+                    <p class="seconds" id="seconds"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="clockwork.js"></script>
+</html>
